@@ -1,5 +1,15 @@
 # Daily Diary App (FULL STACK)
 
+# Set up database
+- Create a new database, and another which is the same but ending in test, this is the database we will use to test the functionality of the app.
+- Use the details in 01_creating_database_tables.sql to create the tables for the databases.
+
+
+
+
+
+
+
 ### User Stories:
 
 #### Must Have
