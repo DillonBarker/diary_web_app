@@ -7,7 +7,7 @@ class Diary
     else
       conn = PG.connect(dbname: 'diary')
     end
-      conn.exec("SELECT * FROM entries")
+      result = conn.exec("SELECT * FROM entries")
       result.map { |bookmark| bookmark['entry']}
   end
 end

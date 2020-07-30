@@ -9,8 +9,13 @@
           1,
           1,
           null,
-          0,
-          0,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
           null,
           null
         ]
@@ -21,9 +26,13 @@
           null,
           1,
           1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          null,
+          0,
+          null,
+          2,
+          8,
           null,
           null
         ]
@@ -37,8 +46,24 @@
           null,
           null
         ]
+      },
+      "/Users/student/Documents/base/Course/week-4/week4/daily_diary_app/spec/features/viewing_entries_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1596103725
+    "timestamp": 1596104462
   }
 }
