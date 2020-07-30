@@ -4,7 +4,7 @@ require 'simplecov-console'
 
 require_relative '../app'
 
-ENV['TEST'] = 'test'
+ENV['ENV'] = 'test'
 
 RSpec.configure do |config|
   config.before(:each) do

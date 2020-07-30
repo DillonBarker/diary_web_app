@@ -6,6 +6,13 @@ class DiaryApp < Sinatra::Base
     erb :index
   end
 
-  
+  get '/entries' do
+    @entries = Diary.all
+    erb :entries
+  end
+
+
+
+  run! if app_file == $0
 
 end
