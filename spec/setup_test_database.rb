@@ -1,18 +1,19 @@
 require 'pg'
+require 'database_connection'
 
 puts 'Initalizing...'
 puts 'Database being reset....'
 puts '# 20%'
-sleep 0.5
+sleep 0.20
 puts '## 40%'
-sleep 0.5
+sleep 0.20
 puts '### 60%'
-sleep 0.5
+sleep 0.20
 puts '#### 80%'
-sleep 0.5
+sleep 0.20
 puts '##### 100%'
 puts 'Done'
 
-conn = PG.connect(dbname: 'diary_test')
+conn = DatabaseConnection.setup('diary_test')
 
 conn.exec("TRUNCATE entries;")
