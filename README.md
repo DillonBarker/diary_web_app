@@ -5,11 +5,6 @@
 - Use the details in 01_creating_database_tables.sql to create the tables for the databases.
 - The class DatabaseConnection, can be used to connect to the database, this can help to keep code dry and avoid repetition
 
-
-
-
-
-
 ### User Stories:
 
 #### Must Have
