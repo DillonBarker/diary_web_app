@@ -3,7 +3,6 @@ require 'database_helpers'
 
 describe '.all' do
   it 'returns a list of all diary entries' do
-    conn = PG.connect(dbname: 'diary_test')
 
     entry = Diary.create_entry(entry: "Hello I am Dillon")
     Diary.create_entry(entry: 'Test entry 2')

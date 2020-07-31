@@ -18,7 +18,6 @@ describe DatabaseConnection do
       conn = DatabaseConnection.setup('diary_test')
       expect(conn).to receive(:exec).with('SELECT * FROM entries;')
       DatabaseConnection.query('SELECT * FROM entries;')
-
     end
   end
 end

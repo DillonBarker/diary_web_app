@@ -1,7 +1,7 @@
 require 'pg'
+require 'database_connection'
 
 def persisted_data(id:)
-  conn = PG.connect(dbname: 'diary_test')
-  result = conn.query("SELECT * FROM entries WHERE id = #{id};")
+  result = DatabaseConnection.query("SELECT * FROM entries WHERE id = #{id};")
   result.first
 end

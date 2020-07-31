@@ -25,7 +25,6 @@
           1,
           null,
           null,
-          null,
           null
         ]
       },
@@ -34,7 +33,6 @@
           1,
           1,
           null,
-          1,
           1,
           1,
           null,
@@ -65,8 +63,8 @@
       "/Users/student/Documents/base/Course/week-4/week4/daily_diary_app/spec/database_helpers.rb": {
         "lines": [
           1,
-          null,
           1,
+          null,
           1,
           1,
           1,
@@ -111,6 +109,6 @@
         ]
       }
     },
-    "timestamp": 1596187534
+    "timestamp": 1596187850
   }
 }
