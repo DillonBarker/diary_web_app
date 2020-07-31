@@ -1,5 +1,3 @@
-require 'pg'
-
 feature 'viewing entries' do
   scenario 'user can see all diary entries' do
     Diary.create_entry(entry: 'Hello I am Dillon')

@@ -3,6 +3,7 @@ require './lib/diary'
 require './database_connection_setup'
 
 class DiaryApp < Sinatra::Base
+  enable :sessions, :method_override
 
   get '/' do
     erb :index
@@ -22,6 +23,9 @@ class DiaryApp < Sinatra::Base
     redirect '/entries'
   end
 
+  delete '/entries/:id' do
+    p params
+  end
 
 
   run! if app_file == $0

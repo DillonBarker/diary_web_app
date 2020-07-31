@@ -88,10 +88,11 @@
           1,
           1,
           1,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          null,
+          1,
           null,
           null
         ]
@@ -121,8 +122,6 @@
       "/Users/student/Documents/base/Course/week-4/week4/daily_diary_app/spec/features/viewing_entries_spec.rb": {
         "lines": [
           1,
-          null,
-          1,
           1,
           1,
           1,
@@ -134,6 +133,6 @@
         ]
       }
     },
-    "timestamp": 1596190519
+    "timestamp": 1596192127
   }
 }
