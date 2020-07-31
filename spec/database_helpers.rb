@@ -1,4 +1,3 @@
-require 'pg'
 require 'database_connection'
 
 def persisted_data(id:)

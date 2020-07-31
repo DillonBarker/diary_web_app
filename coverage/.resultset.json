@@ -63,7 +63,6 @@
       "/Users/student/Documents/base/Course/week-4/week4/daily_diary_app/spec/database_helpers.rb": {
         "lines": [
           1,
-          1,
           null,
           1,
           1,
@@ -83,8 +82,20 @@
           null
         ]
       },
+      "/Users/student/Documents/base/Course/week-4/week4/daily_diary_app/spec/features/home_to_entries_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/student/Documents/base/Course/week-4/week4/daily_diary_app/spec/features/view_home_page_spec.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -109,6 +120,6 @@
         ]
       }
     },
-    "timestamp": 1596189400
+    "timestamp": 1596190122
   }
 }

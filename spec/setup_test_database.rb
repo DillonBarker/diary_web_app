@@ -1,4 +1,3 @@
-require 'pg'
 require 'database_connection'
 
 puts 'Initalizing...'
@@ -16,4 +15,4 @@ puts 'Done'
 
 conn = DatabaseConnection.setup('diary_test')
 
-conn.exec("TRUNCATE entries;")
+conn.query("TRUNCATE entries;")
