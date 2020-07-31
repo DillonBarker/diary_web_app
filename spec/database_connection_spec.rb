@@ -6,11 +6,6 @@ describe DatabaseConnection do
       expect(PG). to receive(:connect).with(dbname: 'diary_test')
       DatabaseConnection.setup('diary_test')
     end
-
-    it 'connection is continuous' do
-      conn = DatabaseConnection.setup('diary_test')
-      expect(DatabaseConnection.connection).to eq conn
-    end
   end
 
   describe '.query' do

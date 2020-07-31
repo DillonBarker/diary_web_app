@@ -1,6 +1,6 @@
 require 'sinatra/base'
 require './lib/diary'
-require './database_connection_setup'
+require './database_connection_setup.rb'
 
 class DiaryApp < Sinatra::Base
   enable :sessions, :method_override
@@ -24,9 +24,9 @@ class DiaryApp < Sinatra::Base
   end
 
   delete '/entries/:id' do
-    p params
+    Diary.delete(id: params[:id])
+    redirect '/entries'
   end
-
 
   run! if app_file == $0
 

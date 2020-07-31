@@ -1,4 +1,4 @@
-require './lib/database_connection'
+require './lib/database_connection.rb'
 
 if ENV['ENV'] == 'test'
   DatabaseConnection.setup('diary_test')

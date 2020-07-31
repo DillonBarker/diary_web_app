@@ -2,11 +2,11 @@ require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
 
-
+ENV['ENV'] = 'test'
 require_relative './setup_test_database'
 require_relative '../app'
 
-ENV['ENV'] = 'test'
+
 
 RSpec.configure do |config|
   config.before(:each) do

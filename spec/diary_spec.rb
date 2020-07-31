@@ -25,4 +25,12 @@ describe Diary do
       expect(entry.entry).to eq 'Test diary entry'
     end
   end
+
+  describe '.delete' do
+    it 'it takes an id and deletes that entry' do
+      entry = Diary.create_entry(entry: 'Test diary entry')
+      Diary.delete(id: entry.id)
+      expect(Diary.all.length).to eq 0
+    end
+  end
 end
