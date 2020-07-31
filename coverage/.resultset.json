@@ -11,32 +11,20 @@
           1,
           1,
           null,
-          1,
-          1,
-          1,
           null,
-          null,
-          null,
+          1,
           1,
           1,
           null,
           null,
           null,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Documents/base/Course/week-4/week4/daily_diary_app/lib/database_connection.rb": {
-        "lines": [
+          1,
+          1,
+          1,
+          1,
           1,
           null,
-          1,
-          1,
-          2,
           null,
-          null,
-          1,
-          1,
           null,
           null
         ]
@@ -123,6 +111,6 @@
         ]
       }
     },
-    "timestamp": 1596186977
+    "timestamp": 1596187534
   }
 }

@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require './lib/diary'
+require './database_connection_setup'
 
 class DiaryApp < Sinatra::Base
 
