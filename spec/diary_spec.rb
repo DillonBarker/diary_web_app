@@ -1,18 +1,18 @@
 require 'diary'
 require 'database_helpers'
 
-describe '.all' do
-  it 'returns a list of all diary entries' do
+describe Diary do
+  describe '.all' do
+    it 'returns a list of all diary entries' do
+      entry = Diary.create_entry(entry: 'Hello I am Dillon')
+      Diary.create_entry(entry: 'Test entry 2')
+      diary = Diary.all
 
-    entry = Diary.create_entry(entry: "Hello I am Dillon")
-    Diary.create_entry(entry: 'Test entry 2')
-
-    diary = Diary.all
-
-    expect(diary.length).to eq 2
-    expect(diary.first).to be_a Diary
-    expect(diary.first.id).to eq entry.id
-    expect(diary.first.entry).to eq 'Hello I am Dillon'
+      expect(diary.length).to eq 2
+      expect(diary.first).to be_a Diary
+      expect(diary.first.id).to eq entry.id
+      expect(diary.first.entry).to eq 'Hello I am Dillon'
+    end
   end
 
   describe '.create_entry' do
